@@ -1,0 +1,7 @@
+.idea
+*.*~
+node_modules
+.gitignore
+gulpfile.js
+webpack.config.js
+package.json
