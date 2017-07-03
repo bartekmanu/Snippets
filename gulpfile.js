@@ -6,7 +6,7 @@ gulp.task('gogulp',function(){
 	console.log("as you wish my master");
 });
 gulp.task('sass',function(){
-	return gulp.src('sass/**/*.scss')
+	return gulp.src('sass/**/*.sass')
 		.pipe(sourcemaps.init())
 		.pipe(sass({
 			errLogToConsole:true,
@@ -17,5 +17,5 @@ gulp.task('sass',function(){
 });
 
 gulp.task('watch',function(){
-	gulp.watch('sass/**/*.scss',['sass']);
+	gulp.watch('sass/**/*.sass',['sass']);
 });
